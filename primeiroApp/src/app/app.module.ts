@@ -5,13 +5,16 @@ import { AppComponent } from './app.component';
 
 import {ContarModule} from './contar';
 
+import { AppRoutingModule } from './app-routing.module';
+
 @NgModule({
   declarations: [
     AppComponent,
   ],
   imports: [
     BrowserModule,
-    ContarModule
+    ContarModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
